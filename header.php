@@ -92,7 +92,7 @@
             		<span class="icon-bar"></span>
             		<span class="icon-bar"></span>
           		</button>
-          		<a class="navbar-brand" href="#"><i class="fa fa-flash"></i> RE<strong>ACTIVE</strong> <span>CREATIVE ONE PAGE TEMPLATE</span></a>
+          		<a class="navbar-brand" href="index.php"><i class="fa fa-flash"></i> RE<strong>ACTIVE</strong> <span>CREATIVE ONE PAGE TEMPLATE</span></a>
         	</div>
 
         	<!-- Collect the nav links, forms, and other content for toggling -->
@@ -125,7 +125,7 @@
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
                     	<ul class="dropdown-menu">
                         	<li><a href="page-about_us.php">About Us</a></li>
-                            <li><a href="page-about_us.php">Test Us</a></li>
+                            <li><a href="page-meet_the_team.php">Meet The Team</a></li>
                     	</ul>
                     </li>
             		<li><a href="#">PORTFOLIO</a></li>

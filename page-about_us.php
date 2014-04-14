@@ -6,7 +6,7 @@
         <h1 class="title">ABOUT US</h1>
         <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
         <div class="navi">
-        	You are here : <a href="">Home</a>  > About Us</span>
+        	You are here : <a href="">Home</a>  > <span class="active">About Us</span>
         
         </div>
 	</div> <!-- /.container -->
@@ -19,10 +19,10 @@
 	<div class="row">
     	<div class="col-md-3">
         	<ul class="page-menu">
-            	<li class="active"><a href="">About Us Page <i class="fa fa-angle-right pull-right"></i></a></li>
+            	<li class="active"><a href="page-about_us.php">About Us Page <i class="fa fa-angle-right pull-right"></i></a></li>
                 <li><a href="">Who We Are?</a></li>
                 <li><a href="">Our Clients</a></li>
-                <li><a href="">Meet the Team</a></li>
+                <li><a href="page-meet_the_team.php">Meet the Team</a></li>
                 <li><a href="">What We Did?</a></li>
                 <li><a href="">Contact Page</a></li>
                 <li><a href="">Pricing</a></li>
@@ -114,7 +114,7 @@
                 	
                     <div class="timeline-border"></div>
                     
-                    <div class="row timeline-item">
+                    <div class="row timeline-item js-hide-me">
                         <div class="col-md-5 text-right">
                         	<span class="timeline-title">Foundation</span>
                         </div> <!-- /.col-md-5 -->
@@ -129,7 +129,7 @@
                     </div> <!-- /.row -->
                     
                     
-                    <div class="row timeline-item">
+                    <div class="row timeline-item js-hide-me">
                         <div class="col-md-5 text-right">
                         	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo conse</p>
                         </div> <!-- /.col-md-5 -->
@@ -144,7 +144,7 @@
                     </div> <!-- /.row -->
                     
                     
-                    <div class="row timeline-item">
+                    <div class="row timeline-item js-hide-me">
                         <div class="col-md-5 text-right">
                         	<span class="timeline-title">Enlarge Marketplace Network</span>
                         </div> <!-- /.col-md-5 -->
@@ -159,7 +159,7 @@
                     </div> <!-- /.row -->
                     
                     
-                    <div class="row timeline-item">
+                    <div class="row timeline-item js-hide-me">
                         <div class="col-md-5 text-right">
                         	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo conse</p>
                         </div> <!-- /.col-md-5 -->
@@ -174,7 +174,7 @@
                     </div> <!-- /.row -->
                     
                     
-                    <div class="row timeline-item">
+                    <div class="row timeline-item js-hide-me">
                         <div class="col-md-5 text-right">
                         	<span class="timeline-title">100 Completed Project</span>
                         </div> <!-- /.col-md-5 -->
@@ -189,7 +189,7 @@
                     </div> <!-- /.row -->
                     
                     
-                    <div class="row timeline-item">
+                    <div class="row timeline-item js-hide-me">
                         <div class="col-md-5 text-right">
                         	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo conse</p>
                         </div> <!-- /.col-md-5 -->
@@ -204,7 +204,7 @@
                     </div> <!-- /.row -->
                     
                     
-                    <div class="row timeline-item">
+                    <div class="row timeline-item js-hide-me">
                         <div class="col-md-5 text-right">
                         	<span class="timeline-title">Bigger, Biggest.</span>
                         </div> <!-- /.col-md-5 -->

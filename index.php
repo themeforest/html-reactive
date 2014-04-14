@@ -23,59 +23,7 @@
         </div> <!-- /.opacity-black -->
 </section>
 
-<script type="text/javascript">
-// display 'js-hide-me' on scroll
-$(window).scroll(function(d,h) {
-    hideMe = $(".js-hide-me");
-    hideMe.each(function(){
-        var hideMePanel = ($(this).offset().top - 100) + $(this).height(),
-        windowPanel = $(window).scrollTop() + $(window).height();
-        if (hideMePanel < windowPanel) {
-            $(this).animate({opacity:1, marginTop: '0px'},750);
-        }
-    });
-});
 
-/*text effetc*/
-var text_effect = function(root) {
-    var me = this;
-    me.root = $(root);
-
-    var _init = function(element) {
-
-        var item            = element.find(".js-text-effect-item"),
-        elementLen  = item.length,
-        duration    = 3000, // animation transition duration
-        animCounter = -1;
-        function textEffectAnim() {
-            animCounter++;
-            if(animCounter==elementLen) {
-                animCounter = 0;
-            }
-            item.eq(animCounter).fadeIn(500);
-            item.eq(animCounter).find(".js-text-effect-top").css({top:'-20px',opacity: '0'});
-            item.eq(animCounter).find(".js-text-effect-bottom").css({top:'20px',opacity: '0'});
-            item.eq(animCounter).find(".js-text-effect-top").animate({top:'0px', opacity: 1}, 900, 'linear');
-            item.eq(animCounter).find(".js-text-effect-bottom").animate({top:0, opacity: 1}, 900, 'linear');
-            item.eq(animCounter).delay(duration).fadeOut(300,function() {
-                $(this).find(".js-text-effect-top").css({top:'-20px',opacity: '0'});
-                $(this).find(".js-text-effect-bottom").css({top:'20px',opacity: '0'});
-                textEffectAnim(); // restart animation when it is completed
-            });
-        }
-
-        textEffectAnim();
-    }
-
-    me.root.each(function(){
-        new _init( $(this) );
-    });
-}
-
-$(document).ready(function(){
-    new text_effect(".js-text-effect");
-});
- </script>
 
 
 
@@ -108,7 +56,7 @@ $(document).ready(function(){
 <div class="clearfix"></div>
 
 
-<div class="promo-text">
+<div class="promo-text js-hide-me">
 	<h2>WE ARE <span>RE</span>ACTIVE</h2>
     <p>Lorem ipsum dolor smit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod <br />tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
     <a href="javascript:;" class="btn btn-theme">MORE ABOUT US</a>
@@ -176,9 +124,9 @@ $(document).ready(function(){
 </div> <!-- /.bg-color-2 .full-content -->
 
 
-<div class="container js-hide-me">
+<div class="container ">
 	<div class="h80"></div>
-	<div class="content-header">
+	<div class="content-header js-hide-me">
         <h2>OUR SERVICES</h2>
         <p>Lorem ipsum dolor smit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod <br />tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
     </div> <!-- /.promo-text -->
@@ -186,42 +134,42 @@ $(document).ready(function(){
     
      <!-- iconbox -->
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 js-hide-me">
             <div class="iconbox left">
                 <div class="icon"><i class="fa fa-desktop"></i></div>
                 <a href="javascript:;">UNIUQE RESPONSIVE DESIGN</a>
                 <p>Lorem ipsum dolor sit amet, very cool adipiscing elit. Praesent ut massa in </p>
             </div> <!-- /.iconbox -->
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4">
+        <div class="col-md-4 js-hide-me">
             <div class="iconbox left">
                 <div class="icon"><i class="fa fa-leaf"></i></div>
                 <a href="javascript:;">BROWSER FRIENDLY</a>
                 <p>Lorem ipsum dolor sit amet, very cool adipiscing elit. Praesent ut massa in </p>
             </div> <!-- /.iconbox -->
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4">
+        <div class="col-md-4 js-hide-me">
             <div class="iconbox left">
                 <div class="icon"><i class="fa fa-globe"></i></div>
                 <a href="javascript:;">LANGUAGE SUPPORT</a>
                 <p>Lorem ipsum dolor sit amet, very cool adipiscing elit. Praesent ut massa in </p>
             </div> <!-- /.iconbox -->
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4">
+        <div class="col-md-4 js-hide-me">
             <div class="iconbox left">
                 <div class="icon"><i class="fa fa-hand-o-up"></i></div>
                 <a href="javascript:;">EASY CUSTOMIZATION</a>
                 <p>Lorem ipsum dolor sit amet, very cool adipiscing elit. Praesent ut massa in </p>
             </div> <!-- /.iconbox -->
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4">
+        <div class="col-md-4 js-hide-me">
             <div class="iconbox left">
                 <div class="icon"><i class="fa fa-code"></i></div>
                 <a href="javascript:;">UNLIMITED SUPPORT</a>
                 <p>Lorem ipsum dolor sit amet, very cool adipiscing elit. Praesent ut massa in </p>
             </div> <!-- /.iconbox -->
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4">
+        <div class="col-md-4 js-hide-me">
             <div class="iconbox left">
                 <div class="icon"><i class="fa fa-tablet"></i></div>
                 <a href="javascript:;">MOBILE FRIENDLY</a>
@@ -283,8 +231,8 @@ $(document).ready(function(){
     
     
     
-    <div class="row js-hide-me">
-    	<div class="col-md-3 col-sm-6 tag-box tag-php">
+    <div class="row">
+    	<div class="col-md-3 col-sm-6 js-hide-me tag-box tag-php ">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-php">
                     <div class="buttons">
@@ -298,7 +246,7 @@ $(document).ready(function(){
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 col-sm-6 tag-box tag-css">
+        <div class="col-md-3 col-sm-6 js-hide-me tag-box tag-css">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-css">
                     <div class="buttons">
@@ -312,7 +260,7 @@ $(document).ready(function(){
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 tag-box tag-php">
+        <div class="col-md-3 js-hide-me tag-box tag-php">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-php">
                     <div class="buttons">
@@ -326,7 +274,7 @@ $(document).ready(function(){
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 tag-box tag-photoshop">
+        <div class="col-md-3 js-hide-me tag-box tag-photoshop">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-photoshop">
                     <div class="buttons">
@@ -340,7 +288,7 @@ $(document).ready(function(){
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 tag-box tag-css">
+        <div class="col-md-3 js-hide-me tag-box tag-css">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-css">
                     <div class="buttons">
@@ -354,7 +302,7 @@ $(document).ready(function(){
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 tag-box tag-php">
+        <div class="col-md-3 js-hide-me tag-box tag-php">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-php">
                     <div class="buttons">
@@ -368,7 +316,7 @@ $(document).ready(function(){
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 tag-box tag-css">
+        <div class="col-md-3 js-hide-me tag-box tag-css">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-php">
                     <div class="buttons">
@@ -382,7 +330,7 @@ $(document).ready(function(){
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 tag-box tag-photoshop">
+        <div class="col-md-3 js-hide-me tag-box tag-photoshop">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-php">
                     <div class="buttons">
@@ -442,13 +390,13 @@ $(document).ready(function(){
 
 
 
-<article class="video">
+<article class="video js-hide-me">
 	
 	<div class="opacity-black-04">
     	
             <div class="video-title">
-                <h2 class="video-title">THIS IS A VIDEO SECTION</h2>
-                <p class="video-description">Lorem ipsum dolor smit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
+                <h2 class="video-title js-hide-me">THIS IS A VIDEO SECTION</h2>
+                <p class="video-description js-hide-me">Lorem ipsum dolor smit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod </p>
             </div>
             
             <div class="icons">
@@ -485,22 +433,22 @@ $(document).ready(function(){
         <div class="h80"></div>
         
      
-        <div class="col-md-6 js-hide-me">
-        	<div class="iconbox left custom-style">
+        <div class="col-md-6">
+        	<div class="iconbox left custom-style js-hide-me">
                 <div class="icon"><i class="fa fa-search"></i></div>
                 <a href="javascript:;" class="iconbox-title">Researching About Project </a>
                 <p class="iconbox-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam non-ummy nibh euismod tincidunt ut . Lorem ipsum dolor sit amet.
 </p>
             </div> <!-- /.iconbox -->
             
-            <div class="iconbox left custom-style">
+            <div class="iconbox left custom-style js-hide-me">
                 <div class="icon"><i class="fa fa-power-off"></i></div>
                 <a href="javascript:;" class="iconbox-title">Design & Development </a>
                 <p class="iconbox-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam non-ummy nibh euismod tincidunt ut . Lorem ipsum dolor sit amet.
 </p>
             </div> <!-- /.iconbox -->
             
-            <div class="iconbox left custom-style margin-0">
+            <div class="iconbox left custom-style js-hide-me margin-0">
                 <div class="icon"><i class="fa fa-rocket"></i></div>
                 <a href="javascript:;" class="iconbox-title">Test and Launch! </a>
                 <p class="iconbox-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam non-ummy nibh euismod tincidunt ut . Lorem ipsum dolor sit amet.
@@ -619,12 +567,12 @@ $(document).ready(function(){
         <div class="h80"></div>
         
     
-        <div class="row js-hide-me">
+        <div class="row">
         	<div class="col-md-4">
             	
                 <div class="h50"></div>
             	
-                <div class="center-image">
+                <div class="center-image js-hide-me">
                 	<div class="left-text">
                 		<span class="text-1 fs-20 fw-300">HTML 5 & CSS Code Base</span>
                     	<span class="text-2 fs-16 fw-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</span>
@@ -636,7 +584,7 @@ $(document).ready(function(){
                 </div> <!-- /.center-image -->
                
                 
-                <div class="center-image">
+                <div class="center-image js-hide-me">
                 	<div class="left-text">
                 		<span class="text-1 fs-20 fw-300">Retina Display</span>
                     	<span class="text-2 fs-16 fw-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</span>
@@ -647,7 +595,7 @@ $(document).ready(function(){
                      <div class="clearfix"></div>
                 </div> <!-- /.center-image -->
                 
-                <div class="center-image">
+                <div class="center-image js-hide-me">
                 	<div class="left-text">
                 		<span class="text-1 fs-20 fw-300">Easy Customize</span>
                     	<span class="text-2 fs-16 fw-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</span>
@@ -658,7 +606,7 @@ $(document).ready(function(){
                      <div class="clearfix"></div>
                 </div> <!-- /.center-image -->
                 
-                <div class="center-image">
+                <div class="center-image js-hide-me">
                 	<div class="left-text">
                 		<span class="text-1 fs-20 fw-300">Unlimited Color Option</span>
                     	<span class="text-2 fs-16 fw-300">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh.</span>
@@ -677,7 +625,7 @@ $(document).ready(function(){
             
             	<div class="h50"></div>
                 
-            	<div class="center-image">
+            	<div class="center-image js-hide-me">
                 	<div class="left-icon">
                     	<i class="fa fa-paperclip"></i>
                     </div>
@@ -689,7 +637,7 @@ $(document).ready(function(){
                 </div> <!-- /.center-image -->
                 
                 
-                <div class="center-image">
+                <div class="center-image js-hide-me">
                 	<div class="left-icon">
                     	<i class="fa fa-magic"></i>
                     </div>
@@ -700,7 +648,7 @@ $(document).ready(function(){
                      <div class="clearfix"></div>
                 </div> <!-- /.center-image -->
                 
-                <div class="center-image">
+                <div class="center-image js-hide-me">
                 	<div class="left-icon">
                     	<i class="fa fa-expand"></i>
                     </div>
@@ -711,7 +659,7 @@ $(document).ready(function(){
                      <div class="clearfix"></div>
                 </div> <!-- /.center-image -->
                 
-                <div class="center-image">
+                <div class="center-image js-hide-me">
                 	<div class="left-icon">
                     	<i class="fa fa-columns"></i>
                     </div>
@@ -732,7 +680,7 @@ $(document).ready(function(){
 
 <article class="container">
 	<div class="h100"></div>
-    <div class="content-header">
+    <div class="content-header js-hide-me">
         <h2>OUR TEAM</h2>
         <p>Lorem ipsum dolor smit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod <br />tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
     </div> <!-- /.content-header -->
@@ -878,11 +826,11 @@ $(document).ready(function(){
     </div> <!-- /.content-header -->
     <div class="h80"></div>
     
-    <article class="row js-hide-me">
+    <article class="row">
     	<div class="col-md-4">
-        	<div class="talkbox">
+        	<div class="talkbox js-hide-me">
             
-            	<div class="ballon top bg-color-3">
+            	<div class="ballon top bg-color-3 ">
                 	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobo.</p>
                     
                 </div> <!-- /.box-top -->
@@ -902,7 +850,7 @@ $(document).ready(function(){
             
             </div> <!-- /.talkbox top -->
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4">
+        <div class="col-md-4 js-hide-me">
         	<div class="talkbox">
             
             	<div class="ballon top bg-color-3">
@@ -925,7 +873,7 @@ $(document).ready(function(){
             
             </div> <!-- /.talkbox top -->
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4">
+        <div class="col-md-4 js-hide-me">
         	<div class="talkbox">
             
             	<div class="ballon top bg-color-3">

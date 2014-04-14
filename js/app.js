@@ -267,6 +267,64 @@ var footerSlider = function(root) {
 
 
 
+// display 'js-hide-me' on scroll
+$(window).scroll(function(d,h) {
+    hideMe = $(".js-hide-me");
+    hideMe.each(function(){
+        var hideMePanel = ($(this).offset().top - 100) + $(this).height(),
+        windowPanel = $(window).scrollTop() + $(window).height();
+        if (hideMePanel < windowPanel) {
+            $(this).animate({opacity:1, marginTop: '0px'},750);
+        }
+    });
+});
+
+/*text effetc*/
+var text_effect = function(root) {
+    var me = this;
+    me.root = $(root);
+
+    var _init = function(element) {
+
+        var item            = element.find(".js-text-effect-item"),
+        elementLen  = item.length,
+        duration    = 3000, // animation transition duration
+        animCounter = -1;
+        function textEffectAnim() {
+            animCounter++;
+            if(animCounter==elementLen) {
+                animCounter = 0;
+            }
+            item.eq(animCounter).fadeIn(500);
+            item.eq(animCounter).find(".js-text-effect-top").css({top:'-20px',opacity: '0'});
+            item.eq(animCounter).find(".js-text-effect-bottom").css({top:'20px',opacity: '0'});
+            item.eq(animCounter).find(".js-text-effect-top").animate({top:'0px', opacity: 1}, 900, 'linear');
+            item.eq(animCounter).find(".js-text-effect-bottom").animate({top:0, opacity: 1}, 900, 'linear');
+            item.eq(animCounter).delay(duration).fadeOut(300,function() {
+                $(this).find(".js-text-effect-top").css({top:'-20px',opacity: '0'});
+                $(this).find(".js-text-effect-bottom").css({top:'20px',opacity: '0'});
+                textEffectAnim(); // restart animation when it is completed
+            });
+        }
+
+        textEffectAnim();
+    }
+
+    me.root.each(function(){
+        new _init( $(this) );
+    });
+}
+
+$(document).ready(function(){
+    new text_effect(".js-text-effect");
+});
+
+
+
+
+
+
+
 
 
 
