@@ -130,12 +130,13 @@
                             <li><a href="page-meet_the_team.php">Meet The Team</a></li>
                             <li><a href="page-contact_us.php">Contact Us</a></li>
                             <li><a href="page-contact_us_left-sidebar.php">Contact Us Left Sidebar</a></li>
+                            <li><a href="page-faq.php">FAQ</a></li>
                     	</ul>
                     </li>
             		<li><a href="#">PORTFOLIO</a></li>
                     <li><a href="#">OUR PROCESS</a></li>
-                    <li><a href="#">OUR TEAM</a></li>
-                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="page-meet_the_team.php">OUR TEAM</a></li>
+                    <li><a href="page-contact_us.php">CONTACT</a></li>
           		</ul>
         	</div><!-- /.navbar-collapse -->
 		</div><!-- /.container -->
