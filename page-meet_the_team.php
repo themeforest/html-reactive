@@ -46,9 +46,11 @@
                             <div class="image-hover img-blur-2">
                                 <div class="opacity op-20 left">
                                     <div class="buttons">
-                                        <div class="buttons_in">
-                                            <a href="img/team-1.jpg" class="btn btn-theme-opacity btn-sm fancybox radius" title="JHON DOE &raquo; Grapchic Designer"><i class="fa fa-expand"></i></a>
-                                            <a href="" class="btn btn-theme-opacity btn-sm"><i class="fa fa-eye"></i> VIEW</a>
+                                        <div class="buttons_in style-2">
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <span class="email">jhondoe@site.com</span>
                                         </div> <!-- /.buttons_in -->
                                     </div> <!-- /.buttons -->
                                 </div> <!-- /.opacity -->
@@ -64,9 +66,11 @@
                             <div class="image-hover img-blur-2">
                                 <div class="opacity op-20 left">
                                     <div class="buttons">
-                                        <div class="buttons_in">
-                                            <a href="img/team-2.jpg" class="btn btn-theme-opacity btn-sm fancybox" title="JHON DOE &raquo; Grapchic Designer"><i class="fa fa-expand"></i> ZOOM</a>
-                                            <a href="" class="btn btn-theme-opacity btn-sm"><i class="fa fa-eye"></i> VIEW</a>
+                                        <div class="buttons_in style-2">
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <span class="email">jhondoe@site.com</span>
                                         </div> <!-- /.buttons_in -->
                                     </div> <!-- /.buttons -->
                                 </div> <!-- /.opacity -->
@@ -82,9 +86,11 @@
                             <div class="image-hover img-blur-2">
                                 <div class="opacity op-20 left">
                                     <div class="buttons">
-                                        <div class="buttons_in">
-                                            <a href="img/team-3.jpg" class="btn btn-theme-opacity btn-sm fancybox" title="JHON DOE &raquo; Grapchic Designer"><i class="fa fa-expand"></i> ZOOM</a>
-                                            <a href="" class="btn btn-theme-opacity btn-sm"><i class="fa fa-eye"></i> VIEW</a>
+                                        <div class="buttons_in style-2">
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <span class="email">jhondoe@site.com</span>
                                         </div> <!-- /.buttons_in -->
                                     </div> <!-- /.buttons -->
                                 </div> <!-- /.opacity -->
@@ -165,6 +171,7 @@
                     padding-top: 8px;
                     padding-left: 10px;
                     padding-right: 10px;
+
                 }
                 ul.team-style-1 li:hover > span.desc {
                     display: block;
@@ -212,66 +219,138 @@
                     <div class="col-md-11">
                         <div class="row">
                             <div class="col-md-3 js-hide-me">
-                                <div class="team-style-1 tag-php" data-tag="php">
-                                    <a href="javascript:;">
-                                        <img src="img/team/team-1.jpg" class="img-responsive team-img" alt="name surname">
-                                    </a>
+                                <div class="team-style-1 tag-php">
+                                    <div class="image-hover img-blur-2">
+                                        <div class="opacity op-20 left">
+                                            <div class="buttons">
+                                                <div class="buttons_in style-2">
+                                                    <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-envelope-o"></i></a>
+                                                </div> <!-- /.buttons_in -->
+                                            </div> <!-- /.buttons -->
+                                        </div> <!-- /.opacity -->
+                                         <a href="javascript:;">
+                                            <img src="img/team/team-1.jpg" class="img-responsive team-img" alt="name surname">
+                                        </a>
+                                    </div>
                                     <a href="javascript:;" class="team-name link">Jhon Doe</a>
                                 </div> <!-- /.team-style-1 -->
                             </div> <!-- /.col-md-3 -->
                             <div class="col-md-3 js-hide-me">
-                                <div class="team-style-1 tag-css" data-tag="css">
-                                    <a href="javascript:;">
-                                        <img src="img/team/team-2.jpg" class="img-responsive team-img" alt="name surname">
-                                    </a>
+                                <div class="team-style-1 tag-css">
+                                    <div class="image-hover img-blur-2">
+                                        <div class="opacity op-20 left">
+                                            <div class="buttons">
+                                                <div class="buttons_in style-2">
+                                                    <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-envelope-o"></i></a>
+                                                </div> <!-- /.buttons_in -->
+                                            </div> <!-- /.buttons -->
+                                        </div> <!-- /.opacity -->
+                                         <a href="javascript:;">
+                                            <img src="img/team/team-2.jpg" class="img-responsive team-img" alt="name surname">
+                                        </a>
+                                    </div>
                                     <a href="javascript:;" class="team-name link">Jhon Doe</a>
                                 </div> <!-- /.team-style-1 -->
                             </div> <!-- /.col-md-3 -->
                             <div class="col-md-3 js-hide-me">
-                                <div class="team-style-1 tag-psd" data-tag="psd">
-                                    <a href="javascript:;">
-                                        <img src="img/team/team-3.jpg" class="img-responsive team-img" alt="name surname">
-                                    </a>
+                                <div class="team-style-1 tag-css">
+                                    <div class="image-hover img-blur-2">
+                                        <div class="opacity op-20 left">
+                                            <div class="buttons">
+                                                <div class="buttons_in style-2">
+                                                    <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-envelope-o"></i></a>
+                                                </div> <!-- /.buttons_in -->
+                                            </div> <!-- /.buttons -->
+                                        </div> <!-- /.opacity -->
+                                         <a href="javascript:;">
+                                            <img src="img/team/team-3.jpg" class="img-responsive team-img" alt="name surname">
+                                        </a>
+                                    </div>
                                     <a href="javascript:;" class="team-name link">Jhon Doe</a>
                                 </div> <!-- /.team-style-1 -->
                             </div> <!-- /.col-md-3 -->
                             <div class="col-md-3 js-hide-me">
-                                <div class="team-style-1 tag-google" data-tag="google">
-                                    <a href="javascript:;">
-                                        <img src="img/team/team-4.jpg" class="img-responsive team-img" alt="name surname">
-                                    </a>
+                                <div class="team-style-1 tag-psd">
+                                    <div class="image-hover img-blur-2">
+                                        <div class="opacity op-20 left">
+                                            <div class="buttons">
+                                                <div class="buttons_in style-2">
+                                                    <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-envelope-o"></i></a>
+                                                </div> <!-- /.buttons_in -->
+                                            </div> <!-- /.buttons -->
+                                        </div> <!-- /.opacity -->
+                                         <a href="javascript:;">
+                                            <img src="img/team/team-4.jpg" class="img-responsive team-img" alt="name surname">
+                                        </a>
+                                    </div>
                                     <a href="javascript:;" class="team-name link">Jhon Doe</a>
                                 </div> <!-- /.team-style-1 -->
                             </div> <!-- /.col-md-3 -->
                             <div class="col-md-3 js-hide-me">
-                                <div class="team-style-1 tag-css" data-tag="css">
-                                    <a href="javascript:;">
-                                        <img src="img/team/team-5.jpg" class="img-responsive team-img" alt="name surname">
-                                    </a>
+                                <div class="team-style-1 tag-css">
+                                    <div class="image-hover img-blur-2">
+                                        <div class="opacity op-20 left">
+                                            <div class="buttons">
+                                                <div class="buttons_in style-2">
+                                                    <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-envelope-o"></i></a>
+                                                </div> <!-- /.buttons_in -->
+                                            </div> <!-- /.buttons -->
+                                        </div> <!-- /.opacity -->
+                                         <a href="javascript:;">
+                                            <img src="img/team/team-5.jpg" class="img-responsive team-img" alt="name surname">
+                                        </a>
+                                    </div>
                                     <a href="javascript:;" class="team-name link">Jhon Doe</a>
                                 </div> <!-- /.team-style-1 -->
                             </div> <!-- /.col-md-3 -->
                             <div class="col-md-3 js-hide-me">
-                                <div class="team-style-1 tag-psd" data-tag="psd">
-                                    <a href="javascript:;">
-                                        <img src="img/team/team-6.jpg" class="img-responsive team-img" alt="name surname">
-                                    </a>
+                                <div class="team-style-1 tag-google">
+                                    <div class="image-hover img-blur-2">
+                                        <div class="opacity op-20 left">
+                                            <div class="buttons">
+                                                <div class="buttons_in style-2">
+                                                    <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-envelope-o"></i></a>
+                                                </div> <!-- /.buttons_in -->
+                                            </div> <!-- /.buttons -->
+                                        </div> <!-- /.opacity -->
+                                         <a href="javascript:;">
+                                            <img src="img/team/team-6.jpg" class="img-responsive team-img" alt="name surname">
+                                        </a>
+                                    </div>
                                     <a href="javascript:;" class="team-name link">Jhon Doe</a>
                                 </div> <!-- /.team-style-1 -->
                             </div> <!-- /.col-md-3 -->
                             <div class="col-md-3 js-hide-me">
-                                <div class="team-style-1 tag-psd" data-tag="psd">
-                                    <a href="javascript:;">
-                                        <img src="img/team/team-7.jpg" class="img-responsive team-img" alt="name surname">
-                                    </a>
+                                <div class="team-style-1 tag-social">
+                                    <div class="image-hover img-blur-2">
+                                        <div class="opacity op-20 left">
+                                            <div class="buttons">
+                                                <div class="buttons_in style-2">
+                                                    <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-envelope-o"></i></a>
+                                                </div> <!-- /.buttons_in -->
+                                            </div> <!-- /.buttons -->
+                                        </div> <!-- /.opacity -->
+                                         <a href="javascript:;">
+                                            <img src="img/team/team-7.jpg" class="img-responsive team-img" alt="name surname">
+                                        </a>
+                                    </div>
                                     <a href="javascript:;" class="team-name link">Jhon Doe</a>
                                 </div> <!-- /.team-style-1 -->
                             </div> <!-- /.col-md-3 -->
                             <div class="col-md-3 js-hide-me">
-                                <div class="team-style-1 tag-php" data-tag="php">
-                                    <a href="javascript:;">
-                                        <img src="img/team/team-8.jpg" class="img-responsive team-img" alt="name surname">
-                                    </a>
+                                <div class="team-style-1 tag-php">
+                                    <div class="image-hover img-blur-2">
+                                        <div class="opacity op-20 left">
+                                            <div class="buttons">
+                                                <div class="buttons_in style-2">
+                                                    <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-envelope-o"></i></a>
+                                                </div> <!-- /.buttons_in -->
+                                            </div> <!-- /.buttons -->
+                                        </div> <!-- /.opacity -->
+                                         <a href="javascript:;">
+                                            <img src="img/team/team-8.jpg" class="img-responsive team-img" alt="name surname">
+                                        </a>
+                                    </div>
                                     <a href="javascript:;" class="team-name link">Jhon Doe</a>
                                 </div> <!-- /.team-style-1 -->
                             </div> <!-- /.col-md-3 -->
@@ -306,47 +385,209 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="team-style-2 js-hide-me">
-                            <a href="javascript:;"><img src="img/team/team-1.jpg" class="img-responsive" alt="name surname"></a>
+                            <div class="image-hover img-blur-2">
+                                <div class="opacity op-20 left">
+                                    <div class="buttons">
+                                        <div class="buttons_in style-2">   
+                                            <div class="text-white fs-20">Jhon Doe</div>
+                                            <div class="text-white fs-14">Web Developer</div>
+                                            <div class="h10"></div>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <div class="h10"></div>
+                                            <div class="text-white fs-16">jhondoe@domain.com</div>
+                                        </div> <!-- /.buttons_in -->
+                                    </div> <!-- /.buttons -->
+                                </div> <!-- /.opacity -->
+                                 <a href="javascript:;">
+                                    <img src="img/team/team-1.jpg" class="img-responsive" alt="name surname">
+                                </a>
+                            </div> <!-- /.image-hover -->
                         </div> <!-- /.team-style-2 -->
                     </div> <!-- /.col-md-4 -->
                     <div class="col-md-4">
                         <div class="team-style-2 js-hide-me">
-                            <a href="javascript:;"><img src="img/team/team-2.jpg" class="img-responsive" alt="name surname"></a>
+                            <div class="image-hover img-blur-2">
+                                <div class="opacity op-20 left">
+                                    <div class="buttons">
+                                        <div class="buttons_in style-2">   
+                                            <div class="text-white fs-20">Jhon Doe</div>
+                                            <div class="text-white fs-14">Web Developer</div>
+                                            <div class="h10"></div>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <div class="h10"></div>
+                                            <div class="text-white fs-16">jhondoe@domain.com</div>
+                                        </div> <!-- /.buttons_in -->
+                                    </div> <!-- /.buttons -->
+                                </div> <!-- /.opacity -->
+                                 <a href="javascript:;">
+                                    <img src="img/team/team-2.jpg" class="img-responsive" alt="name surname">
+                                </a>
+                            </div> <!-- /.image-hover -->
                         </div> <!-- /.team-style-2 -->
                     </div> <!-- /.col-md-4 -->
                     <div class="col-md-4">
                         <div class="team-style-2 js-hide-me">
-                            <a href="javascript:;"><img src="img/team/team-3.jpg" class="img-responsive" alt="name surname"></a>
+                            <div class="image-hover img-blur-2">
+                                <div class="opacity op-20 left">
+                                    <div class="buttons">
+                                        <div class="buttons_in style-2">   
+                                            <div class="text-white fs-20">Jhon Doe</div>
+                                            <div class="text-white fs-14">Web Developer</div>
+                                            <div class="h10"></div>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <div class="h10"></div>
+                                            <div class="text-white fs-16">jhondoe@domain.com</div>
+                                        </div> <!-- /.buttons_in -->
+                                    </div> <!-- /.buttons -->
+                                </div> <!-- /.opacity -->
+                                 <a href="javascript:;">
+                                    <img src="img/team/team-3.jpg" class="img-responsive" alt="name surname">
+                                </a>
+                            </div> <!-- /.image-hover -->
                         </div> <!-- /.team-style-2 -->
                     </div> <!-- /.col-md-4 -->
                     <div class="col-md-4">
                         <div class="team-style-2 js-hide-me">
-                            <a href="javascript:;"><img src="img/team/team-4.jpg" class="img-responsive" alt="name surname"></a>
+                            <div class="image-hover img-blur-2">
+                                <div class="opacity op-20 left">
+                                    <div class="buttons">
+                                        <div class="buttons_in style-2">   
+                                            <div class="text-white fs-20">Jhon Doe</div>
+                                            <div class="text-white fs-14">Web Developer</div>
+                                            <div class="h10"></div>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <div class="h10"></div>
+                                            <div class="text-white fs-16">jhondoe@domain.com</div>
+                                        </div> <!-- /.buttons_in -->
+                                    </div> <!-- /.buttons -->
+                                </div> <!-- /.opacity -->
+                                 <a href="javascript:;">
+                                    <img src="img/team/team-4.jpg" class="img-responsive" alt="name surname">
+                                </a>
+                            </div> <!-- /.image-hover -->
                         </div> <!-- /.team-style-2 -->
                     </div> <!-- /.col-md-4 -->
                     <div class="col-md-4">
                         <div class="team-style-2 js-hide-me">
-                            <a href="javascript:;"><img src="img/team/team-5.jpg" class="img-responsive" alt="name surname"></a>
+                            <div class="image-hover img-blur-2">
+                                <div class="opacity op-20 left">
+                                    <div class="buttons">
+                                        <div class="buttons_in style-2">   
+                                            <div class="text-white fs-20">Jhon Doe</div>
+                                            <div class="text-white fs-14">Web Developer</div>
+                                            <div class="h10"></div>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <div class="h10"></div>
+                                            <div class="text-white fs-16">jhondoe@domain.com</div>
+                                        </div> <!-- /.buttons_in -->
+                                    </div> <!-- /.buttons -->
+                                </div> <!-- /.opacity -->
+                                 <a href="javascript:;">
+                                    <img src="img/team/team-5.jpg" class="img-responsive" alt="name surname">
+                                </a>
+                            </div> <!-- /.image-hover -->
                         </div> <!-- /.team-style-2 -->
                     </div> <!-- /.col-md-4 -->
                     <div class="col-md-4">
                         <div class="team-style-2 js-hide-me">
-                            <a href="javascript:;"><img src="img/team/team-6.jpg" class="img-responsive" alt="name surname"></a>
+                            <div class="image-hover img-blur-2">
+                                <div class="opacity op-20 left">
+                                    <div class="buttons">
+                                        <div class="buttons_in style-2">   
+                                            <div class="text-white fs-20">Jhon Doe</div>
+                                            <div class="text-white fs-14">Web Developer</div>
+                                            <div class="h10"></div>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <div class="h10"></div>
+                                            <div class="text-white fs-16">jhondoe@domain.com</div>
+                                        </div> <!-- /.buttons_in -->
+                                    </div> <!-- /.buttons -->
+                                </div> <!-- /.opacity -->
+                                 <a href="javascript:;">
+                                    <img src="img/team/team-6.jpg" class="img-responsive" alt="name surname">
+                                </a>
+                            </div> <!-- /.image-hover -->
                         </div> <!-- /.team-style-2 -->
                     </div> <!-- /.col-md-4 -->
                     <div class="col-md-4">
                         <div class="team-style-2 js-hide-me">
-                            <a href="javascript:;"><img src="img/team/team-7.jpg" class="img-responsive" alt="name surname"></a>
+                            <div class="image-hover img-blur-2">
+                                <div class="opacity op-20 left">
+                                    <div class="buttons">
+                                        <div class="buttons_in style-2">   
+                                            <div class="text-white fs-20">Jhon Doe</div>
+                                            <div class="text-white fs-14">Web Developer</div>
+                                            <div class="h10"></div>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <div class="h10"></div>
+                                            <div class="text-white fs-16">jhondoe@domain.com</div>
+                                        </div> <!-- /.buttons_in -->
+                                    </div> <!-- /.buttons -->
+                                </div> <!-- /.opacity -->
+                                 <a href="javascript:;">
+                                    <img src="img/team/team-7.jpg" class="img-responsive" alt="name surname">
+                                </a>
+                            </div> <!-- /.image-hover -->
                         </div> <!-- /.team-style-2 -->
                     </div> <!-- /.col-md-4 -->
                     <div class="col-md-4">
                         <div class="team-style-2 js-hide-me">
-                            <a href="javascript:;"><img src="img/team/team-8.jpg" class="img-responsive" alt="name surname"></a>
+                            <div class="image-hover img-blur-2">
+                                <div class="opacity op-20 left">
+                                    <div class="buttons">
+                                        <div class="buttons_in style-2">   
+                                            <div class="text-white fs-20">Jhon Doe</div>
+                                            <div class="text-white fs-14">Web Developer</div>
+                                            <div class="h10"></div>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <div class="h10"></div>
+                                            <div class="text-white fs-16">jhondoe@domain.com</div>
+                                        </div> <!-- /.buttons_in -->
+                                    </div> <!-- /.buttons -->
+                                </div> <!-- /.opacity -->
+                                 <a href="javascript:;">
+                                    <img src="img/team/team-8.jpg" class="img-responsive" alt="name surname">
+                                </a>
+                            </div> <!-- /.image-hover -->
                         </div> <!-- /.team-style-2 -->
                     </div> <!-- /.col-md-4 -->
                     <div class="col-md-4">
                         <div class="team-style-2 js-hide-me">
-                            <a href="javascript:;"><img src="img/team/team-9.jpg" class="img-responsive" alt="name surname"></a>
+                            <div class="image-hover img-blur-2">
+                                <div class="opacity op-20 left">
+                                    <div class="buttons">
+                                        <div class="buttons_in style-2">   
+                                            <div class="text-white fs-20">Jhon Doe</div>
+                                            <div class="text-white fs-14">Web Developer</div>
+                                            <div class="h10"></div>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-facebook"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-twitter"></i></a>
+                                            <a href="javascript:;" class="btn btn-theme-opacity btn-sm"><i class="fa fa-linkedin"></i></a>
+                                            <div class="h10"></div>
+                                            <div class="text-white fs-16">jhondoe@domain.com</div>
+                                        </div> <!-- /.buttons_in -->
+                                    </div> <!-- /.buttons -->
+                                </div> <!-- /.opacity -->
+                                 <a href="javascript:;">
+                                    <img src="img/team/team-9.jpg" class="img-responsive" alt="name surname">
+                                </a>
+                            </div> <!-- /.image-hover -->
                         </div> <!-- /.team-style-2 -->
                     </div> <!-- /.col-md-4 -->
                 </div> <!-- /.row -->

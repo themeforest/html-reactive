@@ -6,7 +6,7 @@
         <h1 class="title">CONTACT US</h1>
         <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
         <div class="navi">
-        	You are here : <a href="">Home</a>  > Contact Us</span>
+        	You are here : <a href="">Home</a>  > <a href="">Page</a>  > <span class="active">Contact Us</span>
         
         </div>
 	</div> <!-- /.container -->

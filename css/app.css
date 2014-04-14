@@ -75,8 +75,9 @@ a.text-theme:hover { color:#DF578A;}
 .lh-20		{ line-height:20px !important;	}
 
 .margin-0 	{ margin:0px !important; 	}
-.padding-0	{ padding:0px; 	}
+.padding-0	{ padding:0px !important; 	}
 
+.padding-5	{ padding:5px !important; 	}
 .padding-10 { padding:10px; }
 
 .mb-4		{ margin-bottom:4px !important; }
@@ -1168,6 +1169,25 @@ ul.client-logo li a img:hover  {
 	display: table-cell;
 	vertical-align: middle;
 	text-align: center;
+}
+
+.image-hover .opacity .buttons .buttons_in.style-2  .btn {
+	border-radius: 360px;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	padding: 0px;
+}
+.image-hover .opacity .buttons .buttons_in.style-2  .btn .fa{
+	margin: 0px;
+	padding-right: 0px;
+	padding-top: 12px;
+}
+.image-hover .opacity .buttons .buttons_in.style-2  .email{
+	color:#fff;
+	display:block;
+	margin-top: 10px;
+	font-size: 16px;
 }
 
 

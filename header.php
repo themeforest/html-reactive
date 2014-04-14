@@ -126,6 +126,7 @@
                     	<ul class="dropdown-menu">
                         	<li><a href="page-about_us.php">About Us</a></li>
                             <li><a href="page-meet_the_team.php">Meet The Team</a></li>
+                            <li><a href="page-contact_us.php">Contact Us</a></li>
                     	</ul>
                     </li>
             		<li><a href="#">PORTFOLIO</a></li>
