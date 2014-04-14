@@ -47,7 +47,7 @@
                                 <div class="opacity op-20 left">
                                     <div class="buttons">
                                         <div class="buttons_in">
-                                            <a href="img/team-1.jpg" class="btn btn-theme-opacity btn-sm fancybox" title="JHON DOE &raquo; Grapchic Designer"><i class="fa fa-expand"></i> ZOOM</a>
+                                            <a href="img/team-1.jpg" class="btn btn-theme-opacity btn-sm fancybox radius" title="JHON DOE &raquo; Grapchic Designer"><i class="fa fa-expand"></i></a>
                                             <a href="" class="btn btn-theme-opacity btn-sm"><i class="fa fa-eye"></i> VIEW</a>
                                         </div> <!-- /.buttons_in -->
                                     </div> <!-- /.buttons -->

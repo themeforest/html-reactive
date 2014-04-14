@@ -114,6 +114,7 @@ a.text-theme:hover { color:#DF578A;}
 .h150 { height:150px !important; }
 .h200 { height:200px !important; }
 
+.radius { border-radius: 360px !important; }
 .radius-360 { border-radius:360px !important; 	}
 .radius-50	{ border-radius:50px; 	}
 .radius-25	{ border-radius:25px; 	}
