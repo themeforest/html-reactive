@@ -125,7 +125,7 @@
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
                     	<ul class="dropdown-menu">
                         	<li><a href="page-about_us.php">About Us</a></li>
-                            <li><a href="page-about_us.php">Deneme Us</a></li>
+                            <li><a href="page-about_us.php">degisiklik yapiyorum Us</a></li>
                     	</ul>
                     </li>
             		<li><a href="#">PORTFOLIO</a></li>
