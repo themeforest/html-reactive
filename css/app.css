@@ -87,6 +87,7 @@ a.text-theme:hover { color:#DF578A;}
 
 .mr-5		{ margin-right:5px !important;	}
 .mr-10		{ margin-right:10px !important;	}
+.mr-20 		{ margin-right:20px !important; }
 
 .h1 { height:1px; }
 .h2 { height:2px; }
@@ -150,6 +151,10 @@ a.text-theme:hover { color:#DF578A;}
 	display:inline-block;
 }
 
+
+.italic {
+	font-style: italic;
+}
 
 
 
@@ -1132,7 +1137,7 @@ ul.client-logo li a img:hover  {
 }
 .image-hover .opacity {
 	position: absolute;
-	background-color: rgba(0,0,0,0);
+	background-color: rgba(255,255,255,0.2);
 	height: 100%;
 	width: 100%;
 	display: none;
@@ -1152,7 +1157,13 @@ ul.client-logo li a img:hover  {
 	text-align: center;
 }
 .image-hover .opacity .icons .fa {
-	font-size:28px;
+	font-size:24px;
+	border:1px solid #fff;
+	background-color: rgba(255,255,255,0.2);
+	padding: 5px 15px;
+}
+.image-hover .opacity .icons .fa:hover {
+	background-color: rgba(255,255,255,0.4);
 }
 
 
@@ -1196,10 +1207,10 @@ ul.client-logo li a img:hover  {
 	z-index:1;
 	display:table-cell;
 	vertical-align: middle;
-	background-color: rgba(0,0,0,0.5);
+	background-color: rgba(255,255,255,255.0.20);
 }
 .image-hover:hover .opacity.op-20 {
-	background-color: rgba(0,0,0,0.20);
+	background-color: rgba(255,255,255,0.20);
 }
 .image-hover img {
 	transform: scale(1);
@@ -1796,10 +1807,23 @@ footer.bottom .logo h2 .fa {
 	margin-bottom:10px;
 	margin-top:0px;
 }
+.page-content a {
+	color:#d30251;
+}
+.page-content a:hover {
+	color:#b30246;
+}
 .page-content p {
 	font-size:16px;
 	font-weight:300;
 	margin-bottom:40px;
+	line-height: 20px;
+}
+.page-content p img {
+	margin-right:20px;
+}
+.page-content .image-hover.pull-left {
+	margin-right:20px;
 }
 .content-line {
 	margin-top:60px;
@@ -1912,3 +1936,9 @@ ul.page-menu li a .fa {
 	background-color:#607079;
 	color:#fff;
 }
+
+
+
+
+
+
