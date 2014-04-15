@@ -5,15 +5,15 @@
         <div class="opacity-black">
             <div class="texts js-text-effect">
                 <div class="js-text-effect-item">
-                    <h2 class="js-text-effect-top">1WE ARE <span>CREATING</span> AWESOME WORKS.</h2>
+                    <h2 class="js-text-effect-top">WE ARE <span>CREATING</span> AWESOME WORKS.</h2>
                     <p class="js-text-effect-bottom">Wordpress Theme  - HTML 5  -  Bootstrapt  - CSS  -  Parallax</p>
                 </div>
                 <div class="js-text-effect-item">
-                    <h2 class="js-text-effect-top">2WE ARE <span>CREATING</span> AWESOME WORKS.</h2>
+                    <h2 class="js-text-effect-top">WE ARE <span>DOING</span> AWESOME WORKS.</h2>
                     <p class="js-text-effect-bottom">Wordpress Theme  - HTML 5  -  Bootstrapt  - CSS  -  Parallax</p>
                 </div>
                 <div class="js-text-effect-item">
-                    <h2 class="js-text-effect-top">3WE ARE <span>CREATING</span> AWESOME WORKS.</h2>
+                    <h2 class="js-text-effect-top">WE ARE <span>THINKING</span> AWESOME WORKS.</h2>
                     <p class="js-text-effect-bottom">Wordpress Theme  - HTML 5  -  Bootstrapt  - CSS  -  Parallax</p>
                 </div>
             </div> <!-- /.texts -->
