@@ -131,7 +131,8 @@
                             <li><a href="page-contact_us.php">Contact Us</a></li>
                             <li><a href="page-contact_us_left-sidebar.php">Contact Us Left Sidebar</a></li>
                             <li><a href="page-faq.php">FAQ</a></li>
-                            <li><a href="page-pricing_table.php">Pricing Table Left Sidebar</a></li>
+                            <li><a href="page-pricing_table.php">Pricing Table</a></li>
+                            <li><a href="page-pricing_table_left-sidebar.php">Pricing Table Left Sidebar</a></li>
                     	</ul>
                     </li>
             		<li><a href="#">PORTFOLIO</a></li>

@@ -2,6 +2,7 @@
 
 
 <section class="page-header">
+<div class="opacity-black">
 	<div class="container">
         <h1 class="title">ABOUT US</h1>
         <p class="desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
@@ -10,6 +11,7 @@
         
         </div>
 	</div> <!-- /.container -->
+</div> <!-- /.opacity-black -->
 </section> <!-- /.page-header -->
 
 
