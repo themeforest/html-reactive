@@ -11,7 +11,7 @@
         
         </div>
     </div> <!-- /.container -->
-</div>
+</div> <!-- /.opacity-black -->
 </section> <!-- /.page-header -->
 
 
