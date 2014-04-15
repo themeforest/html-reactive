@@ -109,19 +109,6 @@
                     	</ul>
                     </li>
                     <li class="dropdown">
-                    	<a href="#" class="dropdown-toggle" data-toggle="dropdown">WHAT WHERE ARE? <b class="caret"></b></a>
-                    	<ul class="dropdown-menu">
-                        	<li><a href="#">Typography</a></li>
-                            <li><a href="#">Buttons</a></li>
-                            <li><a href="#">Panels</a></li>
-                        	<li><a href="#">Tab Style</a></li>
-                        	<li><a href="#">Alert Box</a></li>
-                            <li><a href="#">Progress Bar</a></li>
-                            <li><a href="#">Services</a></li>
-                        	
-                    	</ul>
-                    </li>
-                    <li class="dropdown">
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
                     	<ul class="dropdown-menu">
                             <li><a href="ui-style.php">UI Style</a></li>
