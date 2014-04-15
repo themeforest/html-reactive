@@ -41,13 +41,12 @@
     font-size: 54px;
     margin-top: 23px;
     position: relative;
-    margin: 0px;
 }
 
 .price-table .pricing-header-style p.pricing-value .pricing-currency {
     font-size: 16px !important;
     position: absolute;
-    top: 18px;
+    top: -10px;
     left: 37%;
 }
 
