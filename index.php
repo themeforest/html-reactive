@@ -232,7 +232,7 @@
     
     
     <div class="row">
-    	<div class="col-md-3 col-sm-6 js-hide-me tag-box tag-php ">
+    	<div class="col-md-3 col-xs-6 js-hide-me tag-box tag-php ">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-php">
                     <div class="buttons">
@@ -246,7 +246,7 @@
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 col-sm-6 js-hide-me tag-box tag-css">
+        <div class="col-md-3 col-xs-6 js-hide-me tag-box tag-css">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-css">
                     <div class="buttons">
@@ -260,7 +260,7 @@
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 js-hide-me tag-box tag-php">
+        <div class="col-md-3 col-xs-6 js-hide-me tag-box tag-php">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-php">
                     <div class="buttons">
@@ -274,7 +274,7 @@
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 js-hide-me tag-box tag-photoshop">
+        <div class="col-md-3 col-xs-6 js-hide-me tag-box tag-photoshop">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-photoshop">
                     <div class="buttons">
@@ -288,7 +288,7 @@
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 js-hide-me tag-box tag-css">
+        <div class="col-md-3 col-xs-6 js-hide-me tag-box tag-css">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-css">
                     <div class="buttons">
@@ -302,7 +302,7 @@
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 js-hide-me tag-box tag-php">
+        <div class="col-md-3 col-xs-6 js-hide-me tag-box tag-php">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-php">
                     <div class="buttons">
@@ -316,7 +316,7 @@
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 js-hide-me tag-box tag-css">
+        <div class="col-md-3 col-xs-6 js-hide-me tag-box tag-css">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-php">
                     <div class="buttons">
@@ -330,7 +330,7 @@
             </div>
         	<span class="portfolio-description">Retro Style Camera</span>
         </div> <!-- /.col-md-3 -->
-        <div class="col-md-3 js-hide-me tag-box tag-photoshop">
+        <div class="col-md-3 col-xs-6 js-hide-me tag-box tag-photoshop">
         	<div class="portfolio image-hover img-blur-2">
                 <div class="opacity op-20 left" rel="tag-php">
                     <div class="buttons">
