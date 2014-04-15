@@ -84,7 +84,7 @@
                 
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="panel panel-default">
+                            <div class="panel custom panel-default">
                                 <div class="panel-heading"><i class="fa fa-cutlery"></i> Panel Title Lorem Ipsum</div>
                                 <div class="panel-body">
                                     <p>
@@ -94,7 +94,7 @@
                             </div> <!-- /.panel -->
                         </div> <!-- /.col-md-6 -->
                         <div class="col-md-6">
-                            <div class="panel panel-theme">
+                            <div class="panel custom panel-theme">
                                 <div class="panel-heading"><i class="fa fa-cutlery"></i> Panel Title Lorem Ipsum</div>
                                 <div class="panel-body">
                                     <p>

@@ -1954,34 +1954,7 @@ ul.page-menu li a .fa {
 
 
 
-.panel {
-	margin-bottom: 20px;
-	background-color: #fff;
-	border: 1px solid transparent;
-	border-radius: 0px !important;
-	-webkit-box-shadow: none;
-	box-shadow: none;
-	border-bottom:1px solid #607079 !important;
-}
-.panel-default > .panel-heading {
-	color: #333;
-	background-color: #fff;
-	border-color: transparent;
-}
-.panel-default {
-	border-color: transparent;
-}
-.panel-title  a{
-	font-size: 16px;
-	color: #607079;
-	font-weight: 400;
-}
-.panel-body {
-	font-size: 14px;
-}
-.panel-default > .panel-heading + .panel-collapse .panel-body {
-	border-top-color: #fff;
-}
+
 
 
 
@@ -2072,20 +2045,20 @@ ul.page-menu li a .fa {
 
 
 
-.panel-body {
+.panel.custom .panel-body {
     padding: 30px;
 }
-.panel-heading {
+.panel.custom.panel-heading {
     color:#607079;
 }
-.panel-heading .fa {
+.panel.custom.panel-heading .fa {
     margin-right: 5px;
 }
-.panel-default {
+.panel.custom.panel-default {
     border:1px solid #d0d0d0;
     border-bottom: 1px solid #d0d0d0 !important;
 }
-.panel-default .panel-heading {
+.panel.custom.panel-default .panel-heading {
     background-color: #f6f4f4;
     border-bottom: 1px solid #d0d0d0;
     border-radius:0px;
@@ -2093,16 +2066,18 @@ ul.page-menu li a .fa {
 }
 
 
-.panel-theme {
+.panel.custom.panel-theme {
     border:1px solid #607079;
     border-bottom: 1px solid #607079 !important;
 }
-.panel-theme .panel-heading {
+.panel.custom.panel-theme .panel-heading {
     background-color: #607079;
     color:#fff;
     border-bottom: 1px solid #607079;
     border-radius:0px;
 }
+
+
 
 
 
@@ -2192,6 +2167,35 @@ tbody tr td {
 
 
 
+
+.panel {
+	margin-bottom: 20px;
+	background-color: #fff;
+	border: 1px solid transparent;
+	border-radius: 0px !important;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	border-bottom:1px solid #607079 !important;
+}
+.panel-default > .panel-heading {
+	color: #333;
+	background-color: #fff;
+	border-color: transparent;
+}
+.panel-default {
+	border-color: transparent;
+}
+.panel-title  a{
+	font-size: 16px;
+	color: #607079;
+	font-weight: 400;
+}
+.panel-body {
+	font-size: 14px;
+}
+.panel-default > .panel-heading + .panel-collapse .panel-body {
+	border-top-color: #fff;
+}
 .panel .accordion-click {
     border:1px solid #607079;
     border-radius:100%;
