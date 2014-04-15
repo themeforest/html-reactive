@@ -26,15 +26,7 @@
                 <div class="triangle"></div>
             </div>
             
-            <style>
-            .panel .accordion-click {
-                border:1px solid #607079;
-                border-radius:100%;
-                padding: 4px 9px;
-                float: right;
-                margin-bottom: 10px;
-            }
-            </style>
+
             <div class="page-content">
                     
                     <div class="panel-group" id="accordion">
