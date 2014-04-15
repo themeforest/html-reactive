@@ -1479,6 +1479,24 @@ footer .opacity_custom {
 }
 
 
+@media (max-width: 768px) {
+  footer .footer_img {
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		background-color:#000;
+		background: url('../img/footer-bg.jpg') no-repeat center center fixed;
+		overflow:hidden;
+		height:544px;
+	}
+	footer .opacity_custom {
+		background:rgba(0,0,0,0.4);
+		width: 100%;
+		position: absolute;
+		height: 544px;
+	}
+}
+
 footer .footer-top {
 	padding: 60px 0px 60px 0px;
 }
