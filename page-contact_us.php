@@ -120,7 +120,7 @@
 .contact-info-icon.address  {
     display: block;
     float:left;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .contact-info-left {
