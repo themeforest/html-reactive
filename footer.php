@@ -6,7 +6,7 @@
 		<div class="container">
 			<div class="row">
 
-				<div class="col-md-3">
+				<div class="col-md-3 hidden-xs">
 					<div class="module-title">
 						<div class="icon"><i class="fa fa-desktop"></i><h4>Contact Info</h4></div>
 					</div>
@@ -26,7 +26,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3 hidden-xs">
 					<div class="module-title">
 						<div class="icon"><i class="fa fa-edit"></i><h4>Latest Post</h4></div>
 					</div>
@@ -59,7 +59,7 @@
 					</div>
 				</div>
 
-				<div class="col-md-3">
+				<div class="col-md-3 hidden-xs">
 
 					<div class="module-title">
 						<div class="icon"><i class="fa fa-rocket"></i><h4>Our Services</h4></div>
@@ -169,7 +169,7 @@
                         Multipurpose Wordpress Theme - All Rights Reserved ® 
                     </div>
                 </div> <!-- /.col-md-6 -->
-                <div class="col-md-6">
+                <div class="col-md-6 hidden-xs">
                     <div class="menus text-right">
                         <a href="javascript:;">Buy This Theme</a>
                         <a href="javascript:;">Contact Us</a>

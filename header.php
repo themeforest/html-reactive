@@ -124,6 +124,7 @@
                     <li class="dropdown">
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
                     	<ul class="dropdown-menu">
+                            <li><a href="ui-style.php">UI Style</a></li>
                             <li><a href="page.php">Single Page</a></li>
                             <li><a href="page-full.php">Single Page Full Width</a></li>
                         	<li><a href="page-about_us.php">About Us</a></li>

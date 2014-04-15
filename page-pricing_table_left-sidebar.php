@@ -199,6 +199,7 @@
         </div> <!-- /.col-md-3 -->
         <div class="col-md-9">
         	
+            
             <div class="content-line">
             	<h4><span class="active"><i class="fa fa-table"></i> Pricing Tables</h4>
                 <div class="triangle"></div>
