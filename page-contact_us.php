@@ -137,15 +137,14 @@
     width: 270px;
 }
 
-.contact-alert {
+.alert-theme {
     background: #f7f7f7;
     border-radius: 2px;
     border: 1px solid #d4d4d4;
-    padding: 13px;
     margin-top: 40px;
 }
 
-.contact-alert p {
+.alert-theme p {
     color: #607079;
     font-size: 14px;
     font-weight: 300;
@@ -246,8 +245,8 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <div class="contact-alert">
-                        <button type="button" class="close">&times;</button>
+                    <div class="alert alert-theme alert-dismissable">
+                        <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
                     </div>
                 </div>
