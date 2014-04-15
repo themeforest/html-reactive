@@ -166,6 +166,9 @@ a.text-theme:hover { color:#DF578A;}
  
  
 
+.navbar {
+	border-radius: 0px;
+}
 .navbar.header-top {
 	background-color:#fff;
 	border:0px;
@@ -283,7 +286,14 @@ section.header {
 	position:relative;
 }
 section.header .slider-bg {
-	background:url('../img/slider-1.jpg') no-repeat center center fixed;
+	background: url('../img/slider-1.jpg') no-repeat center center fixed; 
+	background-size: auto auto;
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 	height:800px;
 	position:relative;
 	z-index:-1;
@@ -2690,3 +2700,5 @@ ul.team-style-1 li.active {
     transform: scale(0.8);
     opacity:0.5;
 }
+
+

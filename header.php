@@ -56,7 +56,7 @@
 <header>
 	<div class="opacity-black">  
 
-	<nav class="navbar header-top hidden-xs" role="navigation">
+	<nav class="navbar header-top hidden-xs hidden-sm" role="navigation">
 		<div class="container">
 
         	<!-- Collect the nav links, forms, and other content for toggling -->
@@ -85,7 +85,7 @@
     <nav class="navbar header" role="navigation">
 		<div class="container">
        		<!-- Brand and toggle get grouped for better mobile display -->
-        	<div class="navbar-header">
+        	<div class="navbar-header hidden-sm">
           		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-9" style="border:1px solid red;">
             		<span class="sr-only">Toggle navigation</span>
             		<span class="icon-bar"></span>
@@ -96,8 +96,8 @@
         	</div>
 
         	<!-- Collect the nav links, forms, and other content for toggling -->
-        	<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-9">
-          		<ul class="nav navbar-nav">
+        	<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-9 ">
+          		<ul class="nav navbar-nav deneme-123">
             		<li class="dropdown">
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown">WHO WHERE ARE? <b class="caret"></b></a>
                     	<ul class="dropdown-menu">
