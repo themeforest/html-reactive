@@ -18,7 +18,7 @@
 
 
 <section class="container">
-    <div class="row">
+    <div class="row js-hide-me">
         <div class="col-md-12">
             
             <div class="content-line">
