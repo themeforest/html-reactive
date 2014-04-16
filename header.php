@@ -124,6 +124,7 @@
                     <li class="dropdown">
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
                     	<ul class="dropdown-menu">
+                            <li><a href="ui-style.php">UI Style</a></li>
                             <li><a href="page.php">Single Page</a></li>
                             <li><a href="page-full.php">Single Page Full Width</a></li>
                         	<li><a href="page-about_us.php">About Us</a></li>
@@ -131,7 +132,8 @@
                             <li><a href="page-contact_us.php">Contact Us</a></li>
                             <li><a href="page-contact_us_left-sidebar.php">Contact Us Left Sidebar</a></li>
                             <li><a href="page-faq.php">FAQ</a></li>
-                            <li><a href="page-pricing_table.php">Pricing Table Left Sidebar</a></li>
+                            <li><a href="page-pricing_table.php">Pricing Table</a></li>
+                            <li><a href="page-pricing_table_left-sidebar.php">Pricing Table Left Sidebar</a></li>
                     	</ul>
                     </li>
             		<li><a href="#">PORTFOLIO</a></li>

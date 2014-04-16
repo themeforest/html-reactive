@@ -126,14 +126,14 @@
 
 <div class="container ">
 	<div class="h80"></div>
-	<div class="content-header js-hide-me">
+	<div class="content-header js-hide-me hidden-xs">
         <h2>OUR SERVICES</h2>
         <p>Lorem ipsum dolor smit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod <br />tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
     </div> <!-- /.promo-text -->
-    <div class="h80"></div>
+    <div class="h80 hidden-xs"></div>
     
      <!-- iconbox -->
-    <div class="row">
+    <div class="row hidden-xs">
         <div class="col-md-4 js-hide-me">
             <div class="iconbox left">
                 <div class="icon"><i class="fa fa-desktop"></i></div>
@@ -182,7 +182,7 @@
 
 
 
-<section class="full-content">
+<section class="full-content hidden-xs">
 	
 	
     <div class="h40"></div>
@@ -385,12 +385,12 @@
 </section> <!-- /.container -->
 
 
-<div class="h70"></div>
+<div class="h70 hidden-xs"></div>
 
 
 
 
-<article class="video js-hide-me">
+<article class="video js-hide-me hidden-xs">
 	
 	<div class="opacity-black-04">
     	
@@ -420,12 +420,12 @@
         </div>
     
 </article>
-<div class="h120"></div>
+<div class="h120 hidden-xs"></div>
 
 
 <div class="container">
 
-	<article class="row">
+	<article class="row hidden-xs">
     	<div class="content-header js-hide-me">
             <h2>HOW WE DO?</h2>
             <p>Lorem ipsum dolor smit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod <br />tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
@@ -557,8 +557,8 @@ $(document).ready(function(){
 </script>	
 
 
-<div class="bg-color-2">
-	<div class="container ">
+<div class="bg-color-2 hidden-xs">
+	<div class="container">
     	<div class="h100"></div>
     	<div class="content-header js-hide-me">
             <h2>SOME OTHER FEATURES</h2>
@@ -687,8 +687,8 @@ $(document).ready(function(){
     <div class="h80"></div>
     
    
-    <div class="row js-hide-me">
-    	<div class="col-md-4">
+    <div class="row">
+    	<div class="col-md-4 js-hide-me">
         	<div class="our-team">
         		<div class="image-hover img-blur-2">
                     <div class="opacity op-20 left">
@@ -712,9 +712,10 @@ $(document).ready(function(){
                     <li><a href="" class="instagram"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
                 </ul> <!-- /.icons -->
-            </div>
+            </div> <!-- /.our-team -->
+            <div class="h50 visible-xs"></div>
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4">
+        <div class="col-md-4 js-hide-me">
         	<div class="our-team">
             	<div class="image-hover img-blur-2">
                     <div class="opacity op-20 left">
@@ -739,8 +740,9 @@ $(document).ready(function(){
                     <li><a href="" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
                 </ul> <!-- /.icons -->
         	</div> <!-- /.our-team -->
+            <div class="h50 visible-xs"></div>
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4">
+        <div class="col-md-4 js-hide-me">
        		<div class="our-team">
         		<div class="image-hover img-blur-2">
                     <div class="opacity op-20 left">
@@ -764,7 +766,8 @@ $(document).ready(function(){
                     <li><a href="" class="bg instagram"><i class="fa fa-instagram"></i></a></li>
                     <li><a href="" class="bg google-plus"><i class="fa fa-google-plus"></i></a></li>
                 </ul> <!-- /.icons -->
-        	</div> <!-- /.our-team -->
+        	</div> 
+            <div class="h50 visible-xs"></div>
         </div> <!-- /.col-md-4 -->
     </div> <!-- /.row -->
 
@@ -817,7 +820,7 @@ $(document).ready(function(){
 
 
 
-<section class="container">
+<section class="container hidden-xs">
 	
     <div class="h100"></div>
     <div class="content-header js-hide-me">
@@ -902,7 +905,7 @@ $(document).ready(function(){
 <div class="clearfix"></div>
 
 
-<section class="bg-color-3">
+<section class="bg-color-3 hidden-xs">
 	<article class="container client-logo-section">
     	<div class="row js-footer-slider">
         	<div class="col-md-1">
