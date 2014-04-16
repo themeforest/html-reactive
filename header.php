@@ -110,6 +110,13 @@
                     	</ul>
                     </li>
                     <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">BLOG <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="blog.php">Blog</a></li>
+                            <li><a href="blog-inner.php">Single Blog</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
                     	<ul class="dropdown-menu">
                             <li><a href="ui-style.php">UI Style</a></li>
