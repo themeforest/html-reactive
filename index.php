@@ -182,7 +182,7 @@
 
 
 
-<section class="full-content hidden-xs">
+<section class="full-content hidden-xs hidden sm">
 	
 	
     <div class="h40"></div>
@@ -454,6 +454,7 @@
                 <p class="iconbox-desc">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam non-ummy nibh euismod tincidunt ut . Lorem ipsum dolor sit amet.
 </p>
             </div> <!-- /.iconbox -->
+            <div class="h50 visible-xs visible-sm"></div>
         </div> <!-- /.col-md-6 -->
         <div class="col-md-6 text-center js-hide-me">
         	<img src="img/imac-1.png" alt="image" />
@@ -469,6 +470,7 @@
 			 	<span class="icon-title count_item">1556</span>
                 <span class="icon-desc">CUP OF COFFEE</span>
             </div> <!-- /.custom-icon-style -->
+            <div class="h50 visible-xs visible-sm"></div>
         </div> <!-- /.col-md-3 -->
         <div class="col-md-3 text-center js-hide-me">
         	<div class="custom-icon-style">
@@ -476,6 +478,7 @@
 			 	<span class="icon-title count_item">620</span>
                 <span class="icon-desc">HARD WORKING HOURS</span>
             </div> <!-- /.custom-icon-style -->
+            <div class="h50 visible-xs visible-sm"></div>
         </div> <!-- /.col-md-3 -->
         <div class="col-md-3 text-center js-hide-me">
         	<div class="custom-icon-style">
@@ -483,6 +486,7 @@
 			 	<span class="icon-title count_item">117</span>
                 <span class="icon-desc">COMPLETED PROJECTS</span>
             </div> <!-- /.custom-icon-style -->
+            <div class="h50 visible-xs visible-sm"></div>
         </div> <!-- /.col-md-3 -->
         <div class="col-md-3 text-center js-hide-me">
         	<div class="custom-icon-style">
@@ -490,6 +494,7 @@
 			 	<span class="icon-title count_item">130</span>
                 <span class="icon-desc">HAPPY CLIENTS</span>
             </div> <!-- /.custom-icon-style -->
+            <div class="h50 visible-xs visible-sm"></div>
         </div> <!-- /.col-md-3 -->
         
     </article>
@@ -688,7 +693,7 @@ $(document).ready(function(){
     
    
     <div class="row">
-    	<div class="col-md-4 js-hide-me">
+    	<div class="col-md-4 col-sm-6 js-hide-me">
         	<div class="our-team">
         		<div class="image-hover img-blur-2">
                     <div class="opacity op-20 left">
@@ -715,7 +720,7 @@ $(document).ready(function(){
             </div> <!-- /.our-team -->
             <div class="h50 visible-xs"></div>
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4 js-hide-me">
+        <div class="col-md-4 col-sm-6 js-hide-me">
         	<div class="our-team">
             	<div class="image-hover img-blur-2">
                     <div class="opacity op-20 left">
@@ -742,7 +747,7 @@ $(document).ready(function(){
         	</div> <!-- /.our-team -->
             <div class="h50 visible-xs"></div>
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4 js-hide-me">
+        <div class="col-md-4 hidden-sm js-hide-me">
        		<div class="our-team">
         		<div class="image-hover img-blur-2">
                     <div class="opacity op-20 left">
@@ -830,8 +835,8 @@ $(document).ready(function(){
     <div class="h80"></div>
     
     <article class="row">
-    	<div class="col-md-4">
-        	<div class="talkbox js-hide-me">
+    	<div class="col-md-4 col-sm-6 js-hide-me">
+        	<div class="talkbox">
             
             	<div class="ballon top bg-color-3 ">
                 	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobo.</p>
@@ -853,7 +858,7 @@ $(document).ready(function(){
             
             </div> <!-- /.talkbox top -->
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4 js-hide-me">
+        <div class="col-md-4 col-sm-6 js-hide-me">
         	<div class="talkbox">
             
             	<div class="ballon top bg-color-3">
@@ -876,7 +881,7 @@ $(document).ready(function(){
             
             </div> <!-- /.talkbox top -->
         </div> <!-- /.col-md-4 -->
-        <div class="col-md-4 js-hide-me">
+        <div class="col-md-4 hidden-sm js-hide-me">
         	<div class="talkbox">
             
             	<div class="ballon top bg-color-3">
@@ -905,7 +910,7 @@ $(document).ready(function(){
 <div class="clearfix"></div>
 
 
-<section class="bg-color-3 hidden-xs">
+<section class="bg-color-3 hidden-xs hidden-sm">
 	<article class="container client-logo-section">
     	<div class="row js-footer-slider">
         	<div class="col-md-1">

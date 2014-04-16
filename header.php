@@ -98,6 +98,7 @@
         	<!-- Collect the nav links, forms, and other content for toggling -->
         	<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-9 ">
           		<ul class="nav navbar-nav deneme-123">
+                    <li><a href="index.php">HOME</a></li>
             		<li class="dropdown">
                     	<a href="#" class="dropdown-toggle" data-toggle="dropdown">WHO WHERE ARE? <b class="caret"></b></a>
                     	<ul class="dropdown-menu">
@@ -123,8 +124,8 @@
                             <li><a href="page-pricing_table_left-sidebar.php">Pricing Table Left Sidebar</a></li>
                     	</ul>
                     </li>
-            		<li><a href="#">PORTFOLIO</a></li>
-                    <li><a href="#">OUR PROCESS</a></li>
+            		<li><a href="portfolio.php">PORTFOLIO</a></li>
+                    <li><a href="ui-style.php">UI STYLE</a></li>
                     <li><a href="page-meet_the_team.php">OUR TEAM</a></li>
                     <li><a href="page-contact_us.php">CONTACT</a></li>
           		</ul>

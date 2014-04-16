@@ -299,7 +299,7 @@ section.header .slider-bg {
 	z-index:-1;
 }
 section.header .opacity-black {
-	background-color:rgba(0,0,0,0.3);
+	background-color:rgba(96,112,121,0.3);
 	height:800px;
 }
 section.header .texts {
@@ -537,7 +537,7 @@ color: #fff;
 	overflow: hidden;
 }
 .content-bg-image .opacity-black {
-	background-color:rgba(0,0,0,0.3);
+	background-color:rgba(96,112,121,0.3);
 	height:552px;
 	text-align:center;
 }
@@ -876,7 +876,7 @@ span.portfolio-description {
 	color:#fff;
 }
 .video .opacity-black-04 {
-	background-color:rgba(0,0,0,0.4);
+	background-color:rgba(96,112,121,0.4);
 	height:488px;
 	width:100%;
 	position:absolute;
@@ -1147,7 +1147,7 @@ ul.client-logo li a img:hover  {
 }
 .image-hover .opacity {
 	position: absolute;
-	background-color: rgba(255,255,255,0.2);
+	background-color: rgba(96,112,121,0.2);
 	height: 100%;
 	width: 100%;
 	display: none;
@@ -1830,7 +1830,7 @@ footer.bottom .logo h2 .fa {
 	color:#ccc;
 }
 .page-header .opacity-black {
-	background-color:rgba(0,0,0,0.3);
+	background-color:rgba(96,112,121,0.4);
 	height:449px;
 	width: 100%;
 	position:absolute;
