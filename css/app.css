@@ -1572,6 +1572,7 @@ footer .footer-top .accordion-click {
 	border: 1px solid #fff;
 	width: 15px;
 	height: 15px;
+	padding: 0px;
 	border-radius: 50%;
 	text-align: center;
 	line-height: 12px;
