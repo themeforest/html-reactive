@@ -13,28 +13,6 @@
 </section> <!-- /.page-header -->
 
 <style type="text/css">
-.contact-page-title {
-    border-bottom: 1px solid #607079;
-    margin-bottom: 67px;
-    position: relative;
-    text-align: center;
-}
-
-.contact-page-title h4 {
-    color: #607079;
-    font-size: 24px;
-}
-
-.contact-page-title .down-triangle {
-    position: absolute;
-    width: 0; 
-    height: 0;
-    border-top: 6px solid #607079;
-    border-left: 12px solid transparent; 
-    border-right: 12px solid transparent; 
-}
-
-
 .contact-map {
     border-bottom: 1px solid #607079;
     border-top: 1px solid #607079;
@@ -192,10 +170,10 @@
 </div> <!-- /.col-md-3 -->
 
 <div class="col-md-9">
-    
-    <div class="contact-page-title">
-        <h4>Contact Us</h4>
-        <span class="down-triangle"></span>
+
+    <div class="content-line">
+        <h4><span class="active"><i class="fa fa-map-marker"></i> Contact Us</h4>
+        <div class="triangle"></div>
     </div>
 
     <div class="contact-map">
