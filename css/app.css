@@ -1505,6 +1505,11 @@ footer .opacity_custom {
 		position: absolute;
 		height: 544px;
 	}
+
+	.js-hide-me {
+	    opacity: 1;
+	    margin-top: 0px;
+	}
 }
 
 footer .footer-top {

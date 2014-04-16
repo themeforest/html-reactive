@@ -194,9 +194,9 @@
     tincidunt ut laoreet dolore magna aliquam erat volutpat</p>
             </div>
             <div class="js-browser-img">
-                <img src="img/section-bg.png" class="browser-center">
-                <img src="img/section-sm.png" class="browser-left">
-                <img src="img/section-sm.png" class="browser-right">
+                <img src="img/section-bg.png" class="browser-center" alt="name">
+                <img src="img/section-sm.png" class="browser-left" alt="name">
+                <img src="img/section-sm.png" class="browser-right" alt="name">
             </div>
         </div> <!-- /.opacity-black -->
     </article>
@@ -415,7 +415,8 @@
     
         <div class="video-play">
             <video poster="img/video-bg.png" preload="auto" autoplay loop muted="muted">
-                <source src="img/video/1.mp4" type="video/mp4">
+                <source src="video/1.mp4" type="video/mp4">
+                <source type="video/webm" src="video/1.webm">
             </video>
         </div>
     
@@ -624,7 +625,7 @@ $(document).ready(function(){
                 
             </div> <!-- /.col-md-4 -->
             <div class="col-md-4 text-center">
-            	<img src="img/iphone-1.png">
+            	<img src="img/iphone-1.png" alt="name">
             </div> <!-- /.col-md-4 -->
             <div class="col-md-4">
             
@@ -818,8 +819,9 @@ $(document).ready(function(){
                     <i class="fa fa-angle-right js-next-twitter"></i>
                 </div> <!-- /.buttons -->
                 
-            </div> <!-- /.text-center -->
+            
         </div>
+    </article>
     
 </section>
 
@@ -847,7 +849,7 @@ $(document).ready(function(){
                 
                 <div class="clients">
                 	<div class="client-avatar pull-left">
-                		<img src="img/team-1.jpg" class="client-avatar pull-left" />
+                		<img src="img/team-1.jpg" class="client-avatar pull-left" alt="name" />
                     </div> <!-- /.client-avatar -->
                     <div class="client-name">
                         <a href="javascript:;" class="fs-16 text-theme block">Jhon Doe</a>
@@ -870,7 +872,7 @@ $(document).ready(function(){
                 
                 <div class="clients">
                 	<div class="client-avatar pull-left">
-                		<img src="img/team-2.jpg" class="client-avatar pull-left" />
+                		<img src="img/team-2.jpg" class="client-avatar pull-left" alt="name" />
                     </div> <!-- /.client-avatar -->
                     <div class="client-name">
                         <a href="javascript:;" class="fs-16 text-theme block">Jhon Doe</a>
@@ -893,7 +895,7 @@ $(document).ready(function(){
                 
                 <div class="clients">
                 	<div class="client-avatar pull-left">
-                		<img src="img/team-3.jpg" class="client-avatar pull-left" />
+                		<img src="img/team-3.jpg" class="client-avatar pull-left" alt="name" />
                     </div> <!-- /.client-avatar -->
                     <div class="client-name">
                         <a href="javascript:;" class="fs-16 text-theme block">Jhon Doe</a>
@@ -919,18 +921,18 @@ $(document).ready(function(){
             </div>
             <div class="col-md-10">
                 <ul class="client-logo">
-                    <li><a href="javascript:;"><img src="img/client-logo/logo-graphicriver.png" /></a></li>
-                    <li><a href="javascript:;"><img src="img/client-logo/logo-videohive.png" /></a></li>
-                    <li><a href="javascript:;"><img src="img/client-logo/logo-themeforest.png" /></a></li>
-                    <li><a href="javascript:;"><img src="img/client-logo/logo-photodune.png" /></a></li>
-                    <li><a href="javascript:;"><img src="img/client-logo/logo-audiojungle.png" /></a></li>
+                    <li><a href="javascript:;"><img src="img/client-logo/logo-graphicriver.png" alt="name" /></a></li>
+                    <li><a href="javascript:;"><img src="img/client-logo/logo-videohive.png" alt="name" /></a></li>
+                    <li><a href="javascript:;"><img src="img/client-logo/logo-themeforest.png" alt="name" /></a></li>
+                    <li><a href="javascript:;"><img src="img/client-logo/logo-photodune.png" alt="name" /></a></li>
+                    <li><a href="javascript:;"><img src="img/client-logo/logo-audiojungle.png" alt="name" /></a></li>
                 </ul>
                 <ul class="client-logo">
-                    <li><a href="javascript:;"><img src="img/client-logo/logo-graphicriver.png" /></a></li>
-                    <li><a href="javascript:;"><img src="img/client-logo/logo-videohive.png" /></a></li>
-                    <li><a href="javascript:;"><img src="img/client-logo/logo-themeforest.png" /></a></li>
-                    <li><a href="javascript:;"><img src="img/client-logo/logo-photodune.png" /></a></li>
-                    <li><a href="javascript:;"><img src="img/client-logo/logo-audiojungle.png" /></a></li>
+                    <li><a href="javascript:;"><img src="img/client-logo/logo-graphicriver.png" alt="name" /></a></li>
+                    <li><a href="javascript:;"><img src="img/client-logo/logo-videohive.png" alt="name" /></a></li>
+                    <li><a href="javascript:;"><img src="img/client-logo/logo-themeforest.png" alt="name" /></a></li>
+                    <li><a href="javascript:;"><img src="img/client-logo/logo-photodune.png" alt="name" /></a></li>
+                    <li><a href="javascript:;"><img src="img/client-logo/logo-audiojungle.png" alt="name" /></a></li>
                 </ul>
     		</div> <!-- /.col-md-10 -->
             <div class="col-md-1">
