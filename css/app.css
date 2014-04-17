@@ -926,10 +926,16 @@ span.portfolio-description {
 .bg-image {
 	height:410px;
 	overflow:hidden;
-	background-color:#000;
+	background-color:rgba(96,112,121,1);
 }
 .bg-image .img-twitter {
 	background: url('../img/bg-image-twitter.jpg') no-repeat center center fixed;
+	background-size: auto auto;
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	height:410px;
 	position:relative;
 
@@ -1478,11 +1484,17 @@ footer .footer_img {
 	position: absolute;
 	background-color:#000;
 	background: url('../img/footer-bg.jpg') no-repeat center center fixed;
+	background-size: auto auto;
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	overflow:hidden;
 	height:610px;
 }
 footer .opacity_custom {
-	background:rgba(0,0,0,0.4);
+	background:rgba(96,112,121,0.4);
 	width: 100%;
 	position: absolute;
 	height: 610px;
@@ -1797,6 +1809,12 @@ footer.bottom .logo h2 .fa {
 /* page style */
 .page-header {
 	background:url('../img/page-header.jpg') no-repeat top center fixed;
+	background-size: auto auto;
+	background-attachment:fixed;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 	height:450px;
 	margin:0px;
 	margin-top:-140px;
