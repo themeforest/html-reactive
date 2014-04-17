@@ -279,20 +279,27 @@ $(window).scroll(function(d,h) {
     });
 });
 
-/*text effetc*/
+/*text effect*/
 var text_effect = function(root) {
     var me = this;
     me.root = $(root);
 
     var _init = function(element) {
 
-        var item            = element.find(".js-text-effect-item"),
+        var item    = element.find(".js-text-effect-item"),
         elementLen  = item.length,
         duration    = 3000, // animation transition duration
-        animCounter = -1;
-        function textEffectAnim() {
-            animCounter++;
-            if(animCounter==elementLen) {
+        animCounter = -1,
+        manuelCounter = 0;
+        function textEffectAnim(state) {
+            var animState = state;
+            if(animState != 'manuel') {
+                animCounter++;
+            } else {
+                animCounter = 0;
+            }
+            
+            if(animCounter== elementLen) {
                 animCounter = 0;
             }
             item.eq(animCounter).fadeIn(500);
@@ -307,7 +314,65 @@ var text_effect = function(root) {
             });
         }
 
-        textEffectAnim();
+        
+
+        if(element.hasClass('effect-manuel')) {
+            textEffectAnim('manuel');
+            $('body').append("<div class='js-text-left' />");
+            $('body').append("<div class='js-text-right' />");
+            $('body').append("<div class='js-text-control' />");
+
+            item.each(function(index,element){
+                $(".js-text-control").append('<a href="#" class="js-text-control-item"></a>');
+            });
+
+            var rightArr  = $(".js-text-right"),
+            leftArr       = $(".js-text-left"),
+            control       = $(".js-text-control-item");
+
+            control.eq(0).addClass("active"); // add active class to first control item
+
+            function manuelAnim() {
+                item.eq(manuelCounter).fadeIn(500);
+                item.eq(manuelCounter).find(".js-text-effect-top").css({top:'-20px',opacity: '0'});
+                item.eq(manuelCounter).find(".js-text-effect-bottom").css({top:'20px',opacity: '0'});
+                item.eq(manuelCounter).find(".js-text-effect-top").stop(true,true).animate({top:'0px', opacity: 1}, 900, 'linear');
+                item.eq(manuelCounter).find(".js-text-effect-bottom").stop(true,true).animate({top:0, opacity: 1}, 900, 'linear');
+                item.eq(manuelCounter).siblings().stop(true,true).fadeOut();
+                item.eq(manuelCounter).siblings().find(".js-text-effect-top").css({top:'-20px',opacity: '0'});
+                item.eq(manuelCounter).siblings().find(".js-text-effect-bottom").css({top:'20px',opacity: '0'});
+            }
+
+            control.on('click',function(event){
+                event.preventDefault();
+                thisIndex = $(this).index();
+                manuelCounter = thisIndex;
+                manuelAnim();
+                control.eq(thisIndex).addClass("active").siblings().removeClass("active");
+            });
+
+            leftArr.on('click',this,function(){
+                manuelCounter--;
+                if(manuelCounter == (-1) ) {
+                    manuelCounter = (elementLen - 1);
+                }
+                manuelAnim();
+            });
+
+            rightArr.on('click',this,function(){
+                manuelCounter++;
+                if(manuelCounter==elementLen) {
+                    manuelCounter = 0;
+                }
+                manuelAnim();
+            });
+
+        } else {
+            textEffectAnim('auto');
+        }
+
+
+
     }
 
     me.root.each(function(){
