@@ -314,6 +314,115 @@ ul.blog-categories li {
     font-size: 14px;
 }
 
+.blog-sub-title {
+    color: #607079;
+    font-size: 20px;
+    margin: 0px;
+    margin-top: 48px;
+}
+
+.blog-comment {
+    margin-bottom: 40px;
+}
+
+.blog-comment .comment-img {
+    border: 1px solid #607079;
+    height: 76px;
+    width: 76px;
+    float: left;
+    margin-right: 23px;
+}
+
+.blog-comment .comment-name {
+    color: #607079;
+    font-size: 18px;
+}
+
+.blog-comment .comment-context {
+    color: #607079;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.blog-comment-input-group {
+    position: relative;
+}
+
+.blog-comment-input-group .blog-input {
+    background-color: transparent;
+    color: #607079;
+    font-size: 14px;
+    height: 33px;
+    padding: 0px 5px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #e1e7eb;
+    border-radius: 3px;
+    margin-bottom: 15px;
+}
+
+.blog-comment-input-group i.left-indexed,
+.blog-comment-input-group  i.right-indexed {
+    position: absolute;
+    top: 10px;
+}
+.blog-comment-input-group  i.right-indexed {
+    right: 28px;
+}
+
+.blog-comment-input-group i.left-indexed {
+    left: 31px;
+    color: #fff;
+}
+
+.blog-comment-input-group .blog-textarea {
+    background-color: transparent;
+    color: #607079;
+    font-size: 14px;
+    height: 98px;
+    padding: 10px 5px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #e1e7eb;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+.blog-comment-input-group .blog-submit {
+    background-color: #607079;
+    border: 1px solid #e1e7eb;
+    border-radius: 3px;
+    color: #fff;
+    height: 33px;
+    font-size: 16px;
+    font-weight: 300;
+    width: 111px;
+    padding-left: 21px;
+    position: relative;
+}
+
+.blog-comment-input-group .blog-input::-webkit-input-placeholder,
+.blog-comment-input-group .blog-textarea::-webkit-input-placeholder {
+    color: #607079;
+    font-size: 14px;
+}
+.blog-comment-input-group .blog-input:-moz-placeholder,
+.blog-comment-input-group .blog-textarea:-moz-placeholder { /* Firefox 18- */
+    color: #607079;
+    font-size: 14px;
+}
+.blog-comment-input-group .blog-input::-moz-placeholder,
+.blog-comment-input-group .blog-textarea::-moz-placeholder {  /* Firefox 19+ */
+    color: #607079;
+    font-size: 14px;
+}
+.blog-comment-input-group .blog-input:-ms-input-placeholder,
+.blog-comment-input-group .blog-textarea:-ms-input-placeholder {  
+    color: #607079;
+    font-size: 14px;
+}
+
+
 </style>
 
 
@@ -329,7 +438,7 @@ ul.blog-categories li {
         <div class="blog-intro">
             <div class="blog-intro-time">
                 <p class="blog-intro-time-day">15</p>
-                <p class="blog-intro-time-month">Apr, 2014</p>
+                <time class="blog-intro-time-month">Apr, 2014</time>
             </div>
             <div class="blog-intro-detail">
                 <span class="part"><i class="fa fa-user"></i>&nbsp;by Admin</span>
@@ -346,7 +455,65 @@ Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposue
         <p class="blog-contex">Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
         <p class="blog-contex">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in futurum.</p>
     
-        
+        <h5 class="blog-sub-title"><i class="fa fa-tags"></i> Tags</h5>
+
+        <div class="blog-tags">
+            <a href="" class="label label-theme">Photoshop</a>
+            <a href="" class="label label-theme">Retro Photos</a>
+            <a href="" class="label label-theme">Meetings</a>
+            <a href="" class="label label-theme">Wordpress</a>
+        </div>
+
+        <h5 class="blog-sub-title"><i class="fa fa-comments"></i >Comments</h5>
+        <div class="h20"></div>
+        <div class="row">
+            <div class="col-md-12 blog-comment">
+                <img src="img/team/team-2.jpg" alt="#" class="comment-img img-responsive">
+                <p class="comment-name">Jenniffer Doe - Company</p>
+                <p class="comment-context">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-10 col-md-push-2 blog-comment">
+                <img src="img/team/team-1.jpg" alt="#" class="comment-img img-responsive">
+                <p class="comment-name">John Doe - Company</p>
+                <p class="comment-context">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad</p>
+            </div>
+        </div>
+
+        <h5 class="blog-sub-title"><i class="fa fa-pencil"></i> Write Your Comment</h5>
+        <div class="h20"></div>
+        <div class="row">
+            <div class="col-md-6 blog-comment-input-group">
+                <input type="text" class="blog-input" placeholder="Name*">
+                <i class="fa fa-user right-indexed"></i>
+            </div>
+            <div class="col-md-6 blog-comment-input-group">
+                <input type="text" class="blog-input" placeholder="E-Mail*">
+                <i class="fa fa-user right-indexed"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 blog-comment-input-group">
+                <input type="text" class="blog-input" placeholder="Subject*">
+                <i class="fa fa-envelope right-indexed"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 blog-comment-input-group">
+                <textarea class="blog-textarea" placeholder="Message*"></textarea>
+                <i class="fa fa-pencil right-indexed"></i>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 blog-comment-input-group">
+                <input type="submit" class="blog-submit" value="SUBMIT">
+                <i class="fa fa-envelope-o left-indexed mr-5"></i>
+            </div>
+        </div>
 
     </article><!-- /article.blog -->
 

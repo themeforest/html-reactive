@@ -329,7 +329,7 @@ ul.blog-categories li {
         <div class="blog-intro">
             <div class="blog-intro-time">
                 <p class="blog-intro-time-day">15</p>
-                <p class="blog-intro-time-month">Apr, 2014</p>
+                <time class="blog-intro-time-month">Apr, 2014</time>
             </div>
             <div class="blog-intro-detail">
                 <span class="part"><i class="fa fa-user"></i>&nbsp;by Admin</span>
@@ -347,7 +347,7 @@ ul.blog-categories li {
         <div class="blog-intro">
             <div class="blog-intro-time">
                 <p class="blog-intro-time-day">12</p>
-                <p class="blog-intro-time-month">Apr, 2014</p>
+                <time class="blog-intro-time-month">Apr, 2014</time>
             </div>
             <div class="blog-intro-detail">
                 <span class="part"><i class="fa fa-user"></i>&nbsp;by Admin</span>
@@ -365,7 +365,7 @@ ul.blog-categories li {
         <div class="blog-intro">
             <div class="blog-intro-time">
                 <p class="blog-intro-time-day">09</p>
-                <p class="blog-intro-time-month">Apr, 2014</p>
+                <time class="blog-intro-time-month">Apr, 2014</time>
             </div>
             <div class="blog-intro-detail">
                 <span class="part"><i class="fa fa-user"></i>&nbsp;by Admin</span>
