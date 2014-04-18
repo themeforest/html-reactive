@@ -2422,7 +2422,7 @@ tbody tr td {
 }
 
 .blurred-pricing-table {
-    background: url('img/footer-bg.jpg') no-repeat center center fixed;
+    background: url('../img/footer-bg.jpg') no-repeat center center fixed;
     padding: 100px 0px 130px 0px;
     width: 100%;
 }
