@@ -18,7 +18,7 @@
                 </div>
             </div> <!-- /.texts -->
             <div class="buttons">
-                <a href="" class="btn">WHO WHERE ARE</a>
+                <a href="" class="btn">WHO WE ARE</a>
             </div> <!-- /.buttons -->
         </div> <!-- /.opacity-black -->
 </section>

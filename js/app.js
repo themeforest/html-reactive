@@ -321,6 +321,7 @@ var text_effect = function(root) {
             $('body').append("<div class='js-text-left' />");
             $('body').append("<div class='js-text-right' />");
             $('body').append("<div class='js-text-control' />");
+            $('.slider-bg-2').append("<div class='bg-slider-overlay' />");
 
             item.each(function(index,element){
                 $(".js-text-control").append('<a href="#" class="js-text-control-item"></a>');

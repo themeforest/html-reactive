@@ -1,27 +1,56 @@
 <?php include('header.php'); ?>
 
 <style type="text/css">
+section.header .slider-bg-2 {
+    background: url('img/bg.jpg') no-repeat center center fixed;
+    background-size: auto auto;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 800px;
+    position: relative;
+    z-index: -1;
+}
+
+section.header .slider-bg-2 .bg-slider-overlay {
+    background: url('img/Slider-cover.png') repeat repeat;
+    width: inherit;
+    height: inherit;
+    opacity: 0.3;
+}
+
 .js-text-left {
     position: absolute;
-    background: red;
-    width: 42px;
-    height: 84px;
+    background: url('img/navigation-left.png');
+    width: 44px;
+    height: 82px;
     z-index: 999999;
     cursor: pointer;
     top: 300px;
     left: 100px;
 }
 
+.js-text-left:hover {
+    background: url('img/Navigation-Left-HOVER.png');
+}
+
 .js-text-right {
     position: absolute;
-    background: red;
-    width: 42px;
-    height: 84px;
+    background: url('img/Navigation-Right.png');
+    width: 44px;
+    height: 82px;
     z-index: 999999;
     cursor: pointer;
     top: 300px;
     right: 100px;
 }
+
+.js-text-right:hover {
+    background: url('img/Navigation-Right-hover.png');
+}
+
 
 .js-text-control {
     position: absolute;
@@ -46,7 +75,7 @@
 
 <section class="header">
 
-	<div class="slider-bg"></div> <!-- /.slider-bg -->
+	<div class="slider-bg-2"></div> <!-- /.slider-bg -->
         <div class="opacity-black">
             <div class="texts js-text-effect effect-manuel">
                 <div class="js-text-effect-item">
@@ -64,7 +93,7 @@
             </div> <!-- /.texts -->
             
             <div class="buttons">
-                <a href="" class="btn">WHO WHERE ARE</a>
+                <a href="" class="btn">WHO WE ARE</a>
             </div> <!-- /.buttons -->
         </div> <!-- /.opacity-black -->
 </section>
